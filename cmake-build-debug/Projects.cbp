@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Program Files/JetBrains/CLion 2020.3.2/Projects/FileStuff.cpp">
+			<Option target="Projects"/>
+		</Unit>
+		<Unit filename="F:/Program Files/JetBrains/CLion 2020.3.2/Projects/FileStuff.h">
+			<Option target="Projects"/>
+		</Unit>
 		<Unit filename="F:/Program Files/JetBrains/CLion 2020.3.2/Projects/main.cpp">
 			<Option target="Projects"/>
 		</Unit>

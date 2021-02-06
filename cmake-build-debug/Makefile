@@ -142,6 +142,33 @@ Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projects.dir\build.make CMakeFiles/Projects.dir/build
 .PHONY : Projects/fast
 
+FileStuff.obj: FileStuff.cpp.obj
+
+.PHONY : FileStuff.obj
+
+# target to build an object file
+FileStuff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projects.dir\build.make CMakeFiles/Projects.dir/FileStuff.cpp.obj
+.PHONY : FileStuff.cpp.obj
+
+FileStuff.i: FileStuff.cpp.i
+
+.PHONY : FileStuff.i
+
+# target to preprocess a source file
+FileStuff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projects.dir\build.make CMakeFiles/Projects.dir/FileStuff.cpp.i
+.PHONY : FileStuff.cpp.i
+
+FileStuff.s: FileStuff.cpp.s
+
+.PHONY : FileStuff.s
+
+# target to generate assembly for a file
+FileStuff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projects.dir\build.make CMakeFiles/Projects.dir/FileStuff.cpp.s
+.PHONY : FileStuff.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Projects
+	@echo ... FileStuff.obj
+	@echo ... FileStuff.i
+	@echo ... FileStuff.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
